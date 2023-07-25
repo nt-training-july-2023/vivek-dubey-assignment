@@ -27,7 +27,7 @@ public class Question_2 {
             }
 
             if (withdrawalAmount > accountBalance) {
-                throw new InvalidInputException("Insufficient accountBalance.You Cannot withdraw more than what is in account accountBalance.");
+                throw new InvalidInputException("Insufficient accountBalance.You Cannot withdraw more than what is in your account Balance.");
             }
             
          
