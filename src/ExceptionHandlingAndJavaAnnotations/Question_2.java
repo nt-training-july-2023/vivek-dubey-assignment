@@ -32,7 +32,7 @@ public class Question_2 {
             
          
             double remainingBalance = accountBalance - withdrawalAmount;
-            System.out.println("Your Withdrawal is successful!");
+            System.out.println("Your Withdrawal is successfuly processed!");
             System.out.println("Remaining Balance in your account is : " + remainingBalance);
         } catch (InvalidInputException e) {
             System.out.println("Error: " + e.getMessage());
