@@ -17,9 +17,9 @@ public class Question_4 {
             
             readFile(fPath);
         } catch (IOException error) {
-            System.err.println("There was an error reading the file: " + error.getMessage());
+            System.out.println( error.getMessage());
         } catch (SecurityException error) {
-            System.err.println("There was a Security exception: " + error.getMessage());
+            System.out.println(  error.getMessage());
         }
     }
 
@@ -31,9 +31,9 @@ public class Question_4 {
                 System.out.println(line);
             }
         } catch (IOException error) {
-            throw new IOException("There was an Error reading the file: " + error.getMessage());
+            throw new IOException( error.getMessage());
         } catch (SecurityException error) {
-            throw new SecurityException("There was a Security exception which has occurred: " + error.getMessage());
+            throw new SecurityException( error.getMessage());
         }
     }
 }
