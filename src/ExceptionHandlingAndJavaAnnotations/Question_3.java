@@ -27,10 +27,10 @@ public class Question_3 {
 	            System.out.println("Area of the rectangle: " + area);
 
 	            
-	            int invalidLength = 0;
-	            int invalidWidth = -12;
+	            int iL = 0;
+	            int iW = -12;
 
-	            int invalidArea = calculateRectangleArea.areaCalculator(invalidLength, w); // throws exception
+	            int invalidArea = calculateRectangleArea.areaCalculator(iL, iW); 
 	            System.out.println("Rectangle area is : " + invalidArea);
 	        } catch (InvalidDimensionException e) {
 	            System.out.println("An Exception has occurred: " + e.getMessage());
