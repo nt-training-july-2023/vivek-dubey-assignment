@@ -9,7 +9,7 @@ public class Question_6 {
     	Scanner sc = new Scanner(System.in);
         List<String> list = new ArrayList<>();
         
-        list.add("Hokey");
+        list.add("Hockey");
         list.add("Cricket");
         list.add("Football");
         list.add("Basketball");
