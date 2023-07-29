@@ -16,7 +16,7 @@ public class Question_3 {
         sc.close();
 
         if (k <= 0) {
-            System.out.println("Please enter x positive integer.");
+            System.out.println("Please enter a positive integer.");
             return;
         }
 
