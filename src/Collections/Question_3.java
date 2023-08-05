@@ -32,16 +32,16 @@ public class Question_3 {
     }
 
     public static void main(String[] args) {
-        Question_3 example = new Question_3(4);
+        Question_3 obj = new Question_3(4);
 
-        example.addEntry(10, "Vivek");
-        example.addEntry(11, "Krishna");
-        example.addEntry(12, "Ojha");
+        obj.addEntry(10, "Vivek");
+        obj.addEntry(11, "Krishna");
+        obj.addEntry(12, "Ojha");
 
-        example.addEntry(13, "Zubair"); 
+        obj.addEntry(13, "Zubair"); 
 
-        example.addEntry(14, "Mohsin"); // Threshold has been reached, will show and then clear
-        example.addEntry(15, "Aditya");
+        obj.addEntry(14, "Mohsin"); // Threshold has been reached, will show and then clear
+        obj.addEntry(15, "Aditya");
     }
 }
 
