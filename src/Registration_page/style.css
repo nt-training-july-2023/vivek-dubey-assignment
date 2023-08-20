@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    
+   }
+  
+  body {
+    
+    margin-top: 5.5rem;
+
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder !important;
+    color:green;
+
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  form {
+    background-color: #e9e2e2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+    
+  }
+  
+  .form-group {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-group label {
+    font-weight:bolder;
+    margin-bottom: 3px;
+    width: 100%;
+  }
+  
+  
+  .form-group input[type="email"],
+  .form-group input[type="text"],
+  .form-group input[type="password"],
+  .form-group input[type="tel"] {
+    
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    flex-basis: calc(50% - 10px);
+    padding: 14px;
+  }
+  
+  .form-group input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+  }
+  
+  .input{
+    width: 15rem !important;
+  }
+  button[type="submit"] {
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-variant: full-width;
+    width: 100%;
+    background-image: linear-gradient(to right, #9ceeb4, #e0ffdd);
+    font-weight: bold;
+    font-size: 1rem;
+    color: #241d1d;
+    padding: 12px 20px;}
+  
+ 
+
+  
+
+  .gender {
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    justify-content: space-between;
+  }
